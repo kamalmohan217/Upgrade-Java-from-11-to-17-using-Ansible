@@ -1,4 +1,7 @@
 # Upgrade Java from 11 to 17 using Ansible
+
+Provide 600 permission on private key  testkey.pem using the command **chmod 600 testkey.pem** 
+
 ![image](https://github.com/user-attachments/assets/21a17602-164a-4d77-b46e-9c64b6986562)
 
 Command to run ansible-playbook is shown below
