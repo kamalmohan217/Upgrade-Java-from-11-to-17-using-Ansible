@@ -1,7 +1,7 @@
 # Upgrade Java from 11 to 17 using Ansible
 In this demonstration there are five Linux Servers with different Linux OS flavours named as Amazon Linux 2, Rocky Linux, Alma Linux, Ubuntu and RHEL8.
 
-On these Linux Servers a user with the name ritesh has been created and I have a private key named as testkey.pem to login on these Linux Servers using the user ritesh. Java 11 is already installed and my aim is to upgrade java from java-11 to java-17 on these servers. Upgradation of Java has been achieved using the tar file which I had downloaded.
+On these Linux Servers a user with the name ritesh has been created and I have a private key named as testkey.pem to login on these Linux Servers using the user ritesh. Java 11 is already installed and my aim is to upgrade java from java-11 to java-17 on these servers. Upgradation of Java has been achieved using the tar file which I had downloaded, you can also achieve this by installing the java-17 package instead of downloading the tar file.
 
 Provide 600 permission on private key  testkey.pem using the command **chmod 600 testkey.pem** 
 
