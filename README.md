@@ -40,3 +40,10 @@ java version, JAVA_HOME and PATH before and after the Java Upgrade is shown in S
 
 **After Java Upgrade on Ubuntu**
 ![image](https://github.com/user-attachments/assets/0d49f955-386b-47c0-b039-efc52ffa9daa)
+<br><br/>
+<br><br/>
+<br><br/>
+command to know the ansible_os_family, ansible_distribution etc.
+```
+ansible 52.170.102.16 -i ./inventory/hosts -u ritesh --private-key testkey.pem -m setup | grep -i "ansible_distribution"
+```
