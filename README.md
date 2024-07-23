@@ -45,5 +45,6 @@ java version, JAVA_HOME and PATH before and after the Java Upgrade is shown in S
 <br><br/>
 command to know the ansible_os_family, ansible_distribution etc.
 ```
+ansible -i ./inventory/hosts -u ritesh --private-key testkey.pem -m setup | grep -i "ansible_os_family"
 ansible 52.170.102.16 -i ./inventory/hosts -u ritesh --private-key testkey.pem -m setup | grep -i "ansible_distribution"
 ```
